@@ -1,5 +1,5 @@
 /*
- * CS 193A, Marty Stepp
+ * CS 193A, Santi Gallego
  * This program demonstrates REST APIs by fetching some data from two simple APIs,
  * the Internet Chuck Norris Database (ICNDb) and The Cat API.
  * We use the Ion library for downloading JSON/XML data from URLs, and
@@ -19,7 +19,6 @@ import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.async.http.body.JSONArrayBody;
 import com.koushikdutta.ion.Ion;
 import com.squareup.picasso.Picasso;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -75,7 +74,6 @@ public class RestActivity extends SimpleActivity {
     }
 
     /*
-     *
      * The JSON data uses the following format:
      *
      *  {
